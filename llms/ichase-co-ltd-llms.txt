@@ -1,0 +1,23 @@
+# iChase Co., Ltd. (iCHASE)
+
+> AI-powered biosecurity and precision-farming systems for modern agriculture. iCHASE's
+> integrated computer-vision monitoring platform protects livestock and optimizes growth
+> across dairy, poultry, warehouse/industrial, and utility operations. A 500 Global
+> portfolio company and NVIDIA Inception member. No public developer portal, API
+> documentation, OpenAPI definition, or SDKs were discoverable at the time of writing;
+> the website markets an "Open API" capability without published developer resources.
+
+## Products
+- [AI Bird Repeller](https://www.ichase.io): Real-time computer-vision bird detection with automated, chemical-free laser deterrence to reduce avian-flu and contamination risk.
+- [InsightScale](https://www.ichase.io): 3D scanning and AI weight prediction for poultry Average Daily Gain and uniformity without manual weighing.
+
+## Company
+- [Website](https://www.ichase.io)
+- [About](https://www.ichase.io/about/)
+- [Resources](https://www.ichase.io/resources/)
+- [Contact / Support](https://www.ichase.io/contact/) — hello@ichase.io
+- [Privacy Policy](https://www.ichase.io/privacy-policy/)
+
+## Notes
+- Method: generated from apis.yml (no provider-published llms.txt at /llms.txt — HTTP 404).
+- Backed by: 500 Global (VC portfolio lead).

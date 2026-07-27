@@ -1,8 +1,28 @@
 aid: ichase-co-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ichase-co-ltd.png
 name: iChase Co., Ltd.
-description: iChase Co., Ltd. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  iChase Co., Ltd. (iCHASE) builds AI-powered biosecurity and precision-farming systems for
+  modern agriculture. Its integrated computer-vision monitoring platform protects livestock and
+  optimizes growth for dairy, poultry, warehouse/industrial, and utility operations. Flagship
+  products include the AI Bird Repeller, which detects birds in real time and deploys automated,
+  chemical-free laser deterrence to reduce avian-flu and contamination risk, and InsightScale,
+  which uses 3D scanning and AI weight prediction to track poultry Average Daily Gain and
+  uniformity without stressful manual weighing. iCHASE is a member of the NVIDIA Inception
+  program, a 2024 THRIVE Top 100 Global Innovator, and a 500 Global portfolio company. The site
+  markets an "Open API" capability, but no public developer portal, documentation, OpenAPI
+  definition, or SDKs were discoverable at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/ichase-co-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Precision Farming
+- Livestock
+- Poultry
+- Biosecurity
+- Computer Vision
+- Artificial Intelligence
+- Animal Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ichase-co-ltd-domain-security.yml
 - type: Website
-  url: https://ichase.io
+  url: https://www.ichase.io
+- type: About
+  url: https://www.ichase.io/about/
+- type: Support
+  url: https://www.ichase.io/contact/
+- type: PrivacyPolicy
+  url: https://www.ichase.io/privacy-policy/
+- type: LLMsTxt
+  url: llms/ichase-co-ltd-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
