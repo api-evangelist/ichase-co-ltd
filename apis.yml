@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ichase-co-ltd.png
-name: iChase Co., Ltd.
+name: iChase
 description: >-
   iChase Co., Ltd. (iCHASE) builds AI-powered biosecurity and precision-farming systems for
   modern agriculture. Its integrated computer-vision monitoring platform protects livestock and
@@ -48,11 +48,11 @@ tags:
 - Company
 - Agriculture
 - AgTech
-- Precision Farming
+- Precision Agriculture
 - Livestock
 - Poultry
 - Biosecurity
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Animal Health
 tags_raw:
@@ -66,6 +66,7 @@ tags_raw:
 - Computer Vision
 - Artificial Intelligence
 - Animal Health
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -90,3 +91,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: iChase Co., Ltd.
